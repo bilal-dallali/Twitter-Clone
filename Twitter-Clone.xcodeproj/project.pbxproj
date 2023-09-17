@@ -18,6 +18,7 @@
 		9C4681CB2AB6445400BBE4DF /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4681CA2AB6445400BBE4DF /* MessagesView.swift */; };
 		9C7D10752AB730090033626F /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D10742AB730090033626F /* CreateTweetView.swift */; };
 		9C7D10772AB730E20033626F /* MultilineTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D10762AB730E20033626F /* MultilineTextfield.swift */; };
+		9C7D10792AB766CC0033626F /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D10782AB766CC0033626F /* TweetCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9C4681CA2AB6445400BBE4DF /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		9C7D10742AB730090033626F /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		9C7D10762AB730E20033626F /* MultilineTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextfield.swift; sourceTree = "<group>"; };
+		9C7D10782AB766CC0033626F /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				9C4681C42AB6440300BBE4DF /* Feed.swift */,
+				9C7D10782AB766CC0033626F /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7D10792AB766CC0033626F /* TweetCellView.swift in Sources */,
 				9C7D10752AB730090033626F /* CreateTweetView.swift in Sources */,
 				9C7D10772AB730E20033626F /* MultilineTextfield.swift in Sources */,
 				9C4681C72AB6441400BBE4DF /* SearchView.swift in Sources */,
